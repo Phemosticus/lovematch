@@ -1,0 +1,11 @@
+.header {
+  display: block;
+  background-color: #4267b2;
+  line-height: 40px;
+  padding: 5px;
+}
+
+.header span {
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

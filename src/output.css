@@ -1,0 +1,75 @@
+.output {
+  padding: 20px;
+  position: relative;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: linear-gradient(145deg, #bdc3c7, #2c3e50);
+  overflow-y: auto;
+  max-height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.outputcontent {
+  min-width: 90vw;
+  max-width: 800px;
+  min-height: 80vh;
+  max-height: 800px;
+  background-color: rgba(225, 225, 225, 0.6);
+  padding: 10px;
+  position: relative;
+}
+
+.tables {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 50px;
+  overflow: auto;
+  background-color: #212529;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 14px;
+}
+
+.loading,
+.ready {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading img {
+  height: 100px;
+  width: 100px;
+}
+
+.ready img {
+  width: 300px;
+  height: auto;
+}
+
+.output .need {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  padding: 5px;
+  font-size: 12px;
+  font-family: "Share Tech Mono", monospace;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: dotted 1px #fff;
+}
+
+.output .need:hover {
+  color: #2c3e50;
+  border-color: #2c3e50;
+}

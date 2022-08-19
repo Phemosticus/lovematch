@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Share+Tech+Mono&display=swap");
+.frontpage {
+  min-height: 100vh;
+  min-width: 100vw;
+  position: relative;
+  background-image: url("./assets/img/frontpage.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+
+.darklayout {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.note {
+  color: rgba(225, 225, 225, 0.5);
+  font-family: "Share Tech Mono", monospace;
+  font-size: 50px;
+  max-width: 650px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.darklayout button {
+  outline: none;
+  border: none;
+  position: absolute;
+  bottom: 20px;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.darklayout .need {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 5px;
+  font-size: 12px;
+  font-family: "Share Tech Mono", monospace;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: dotted 1px #fff;
+}
+
+.darklayout .need:hover {
+  color: rgba(225, 225, 225, 0.5);
+  border-color: rgba(225, 225, 225, 0.5);
+}
